@@ -1,9 +1,9 @@
 <template>
   <div class="pupil">
     <h1>以下是我们的学员</h1>
-    <ul v-for="post in posts" v-bind:key="post.id">
-      <li>{{ post.name }}</li>
-      <li>{{ post.comment }}</li>
+    <ul v-for="post in posts" v-bind:key="post['id']">
+      <li>{{ post['name'] }}</li>
+      <li>{{ post['comment'] }}</li>
     </ul>
   </div>
 </template>
