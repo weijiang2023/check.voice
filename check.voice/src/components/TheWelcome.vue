@@ -13,10 +13,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>1. 上传语音</template>
-
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    根据提示文案，朗读并上传您的语音数据以作为语音质量评估。
   </WelcomeItem>
 
   <WelcomeItem>
@@ -24,19 +21,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <ToolingIcon />
     </template>
     <template #heading>2. 智能纠错</template>
-
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    基于深度神经网络，算法自动比对学员和标准发音，在短时间内提出建议。
   </WelcomeItem>
 
   <WelcomeItem>
@@ -44,15 +29,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <EcosystemIcon />
     </template>
     <template #heading>3. 学员画像</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    我们为每位学员构建成长画像，这包括线上与线下的交互及独立作业等。
   </WelcomeItem>
 
   <WelcomeItem>
@@ -61,16 +38,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>4. 作品分享</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    拥抱微信内容生态，一键分享语音作品到朋友，家人等。
   </WelcomeItem>
 
   <WelcomeItem>
@@ -79,8 +47,6 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>5. 专家指导</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    可选线下付费资优英语，由英语教育专家进行小班教育，精选每堂课的内容。
   </WelcomeItem>
 </template>
