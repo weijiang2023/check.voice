@@ -2,19 +2,19 @@
   {
     "userId": 0,
     "id": 0,
-    "title": "Anying",
-    "body": "This is the intro to Anying ..."
+    "name": "Anying",
+    "comment": "我从线下分享中掌握了许多单词和短语"
   },
   {
     "userId": 1,
     "id": 1,
-    "title": "Xinyan",
-    "body": "This is the intro to Xinyan ..."
+    "name": "Xinyan",
+    "comment": "通过线上线下结合的方式，我逐步修正了自己的发音"
   },
   {
     "userId": 2,
     "id": 2,
-    "title": "Silei",
-    "body": "This is the intro to Silei ..."
+    "name": "Silei",
+    "comment": "我感觉每次线下分享都很十分投入，课程也不觉沉闷，总有欢笑"
   }
 ]
