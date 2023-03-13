@@ -1,18 +1,12 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      全面提升学员听-说-读-写英语综合能力
-    </h3>
+  <div class="pupil">
+    <h1>以下是我们的学员</h1>
+    <ul v-for="post in posts" v-bind:key="post.id">
+      <li>{{ post.name }}</li>
+      <li>{{ post.comment }}</li>
+    </ul>
   </div>
 </template>
-
 
 <script lang="ts">
   export default {
@@ -39,27 +33,12 @@ defineProps<{
   };
 </script>
 
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
+<style>
 @media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
   }
 }
 </style>
